@@ -1,0 +1,129 @@
+body{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    width: 100%;
+}
+
+button{
+    background-color: rgb(255, 0, 0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+
+    line-height: 1;
+    padding: 20,40;
+    
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#banner{
+    width: 100%;
+}
+
+/* video - BRANCO */
+#assistaVideo{
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-style: bold;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0, 0.3);
+}
+#assistaVideo p{
+   margin: 3px;
+   font-weight: 100; /* tamanho da fonte */
+   font-weight: bold;
+   font-size: x-large;
+}
+
+.video{
+    align-items: center;
+    padding: 2%;
+}
+
+#imgResultado{
+    padding: 8%;
+}
+
+/* PROVA SOCIAL - BRANCO */
+#provaSocial{
+    grid-template-columns: 2;
+}
+.prova{
+    width: 25%;
+}
+/* CINZA  */
+#second{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+.paragrafoUm{
+    margin: 5px;
+}
+
+.tituloFase{
+    color: red;
+}
+.barra{
+    color: red;
+}
+
+/* como Funciona */
+#comoFunciona{  
+    margin: 80px;
+    
+}
+.funciona{
+    padding: 40px;
+}
+/* sete dias - preto */
+#seteDias{
+    background-color: black;
+    padding: 3%;
+}
+.acesso{
+    background-color: #e0cf00;
+    color: black;
+    width: 40;
+    padding: 20, 40;
+    cursor: pointer;
+    text-shadow: rgba(0, 0, 0, 0, 0.3);
+}
+
+/* faq */
+#faq{
+    background-color: #ededed;
+}
+/* apresentação */
+#apresentacao {
+    padding: 3%;
+    background-color:#54595f ;
+    color: white;
+}
+.hosakaPerfil{
+    width: 25%;
+}
+#termos{
+    color: #999999;
+}
+
+

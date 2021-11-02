@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="shortcut icon" href="./projects/projeto01-frontend/icons/icons8-source-code-64.png" />
-    <link rel="stylesheet" href="css/animate.css">
     <title>Bumbum de DIVA - Me</title>
 </head>
 <body>
@@ -22,9 +21,7 @@
         </div>
         
         <div class="video">
-            <div class="centered">
-                <iframe width="560" height="260" src="https://www.youtue.com/watch?v=h6hMBkplzEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <iframe width="1087.78" height="643.87" src="https://www.youtube.com/embed/h6hMBkplzEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
         </div>
     
         <div>
@@ -48,8 +45,9 @@
 
     </div>
     <div id="second"> <!-- fundo cinza -->
-        <img src="img/teste/bumbumdediva_04.png" alt=""> <!-- o que é bumbum de diva -->
-       <div>
+        <img src="./img/alteracao/alteracao_bumbumdeDiva_02.png" alt="O que é bumbum de diva">
+        <!-- <img src="img/teste/bumbumdediva_04.png" alt=""> --> <!-- o que é bumbum de diva -->
+       <!--<div>
         <p>O PROGRAMA FOI DESENVOLVIDO UTILIZANDO O MÉTODO:</p>
         <div class="paragrafoUm">
             <p >Microciclo do treinamento. Sua duração é de 4 semanas, as sessões possuem uma
@@ -92,7 +90,7 @@
                     desenvolvendo e criando forma.
                 </p>
             </div>          
-       </div>
+       </div>-->
     </div>
 
     <div id="comoFunciona">
@@ -140,8 +138,14 @@
 
     <div id="faq"> <!--  fundo cinza -->
         <h2>PERGUNTAS FREQUENTES</h2>
-        <liv >
+        <li>
             <ul>Por quanto tempo vou ter acesso ao programa?</ul>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fas fa-angle-down"></i>
+            </div>
+            <div style="display: none" class="PF">
+                <p>Ao se inscrever você terá acesso por 1 ano a nossa plataforma e aplicativo com bônus exclusivo do treinamento. Ou seja, seu acesso é de 1 ano e você poderá acessar o conteúdo através do seu computador, tablet ou celular.</p>
+            </div>
             <ul>Como funciona a garantia de 7 dias?</ul>
             <ul>Quando começa e termina meu acesso ao programa?</ul>
             <ul>Não treino em academia, posso fazer o programa?</ul>
@@ -167,4 +171,6 @@
         </div>
     </div>
 </body>
+<script src="https://kit.fontawesome.com/c96140eaa4.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </html>

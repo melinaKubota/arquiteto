@@ -1,5 +1,4 @@
 body{
-
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -17,17 +16,13 @@ button{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     cursor: pointer;
-
     color: white;
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-style: italic;
     font-weight: 700;
-
     line-height: 1;
     padding: 20,40;
-    
-
     text-align: center;
     text-transform: uppercase;
 }
@@ -55,7 +50,7 @@ button{
 
 .video{
     align-items: center;
-    padding: 2%;
+    width: 100%;
 }
 
 #imgResultado{
@@ -75,6 +70,8 @@ button{
     color: white;
     text-align: center;
     padding: 10px; 
+    width: 2%;
+    
 }
 .paragrafoUm{
     margin: 5px;
@@ -94,6 +91,8 @@ button{
 }
 .funciona{
     padding: 40px;
+    width: 50%;
+   
 }
 /* sete dias - preto */
 #seteDias{
@@ -112,6 +111,30 @@ button{
 /* faq */
 #faq{
     background-color: #ededed;
+}
+#arrow{
+    font-size: 35px;
+    cursor: pointer;
+    animation: blink 1s steps(5,start) infinite;
+}
+
+@keyframes{
+    to{
+        visibility: hidden;
+    }
+}
+
+.active{
+    display: block !important;
+}
+
+.rotate{
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+#animation{
+    transition:300ms;
 }
 /* apresentação */
 #apresentacao {

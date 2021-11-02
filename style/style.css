@@ -184,3 +184,25 @@ button{
 }
 
 
+@media screen and (max-width:480px){
+	.caixa, .principal, .conteudoBeneficios, .mapaConteudo, .video{
+		width: auto;
+	}
+	h1{
+		text-align: center;
+
+	}
+	nav{
+		position: static;
+	}
+	.listaBeneficios, .imgBeneficios{
+		width: 100%;
+	}
+	form, table{/* contato*/
+		text-align: center;
+		width: auto;
+	}
+	.tabelaHorarios{
+		width: auto;
+	}
+}

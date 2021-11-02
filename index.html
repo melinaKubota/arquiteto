@@ -138,20 +138,35 @@
 
     <div id="faq"> <!--  fundo cinza -->
         <h2>PERGUNTAS FREQUENTES</h2>
-        <li>
-            <ul>Por quanto tempo vou ter acesso ao programa?</ul>
-            <div onclick="displayAbout()" id="arrow">
+            <div onclick="displayTempo()" id="arrow">
                 <i id="animation" class="fas fa-angle-down"></i>
+                <p>Por quanto tempo vou ter acesso ao programa?</p>
             </div>
-            <div style="display: none" class="PF">
-                <p>Ao se inscrever você terá acesso por 1 ano a nossa plataforma e aplicativo com bônus exclusivo do treinamento. Ou seja, seu acesso é de 1 ano e você poderá acessar o conteúdo através do seu computador, tablet ou celular.</p>
+            <div style="display: none" id="tempo">
+                <p>Ao se inscrever você terá acesso por 1 ano a nossa plataforma e aplicativo com bônus exclusivos do treinamento. Ou seja, seu acesso é de 1 ano e você poderá acessar o conteúdo através do seu computador, tablet ou celular.</p>
             </div>
-            <ul>Como funciona a garantia de 7 dias?</ul>
-            <ul>Quando começa e termina meu acesso ao programa?</ul>
-            <ul>Não treino em academia, posso fazer o programa?</ul>
-
-        </li>
-    </div>
+            <div onclick="displayGarantia()" id="arrow">
+                <i id="animati" class="fas fa-angle-down"></i>
+                <p>Como funciona a garantia de 7 dias?</p>
+            </div>
+            <div style="display: none" id="garantia">
+                <p>Se por algum motivo você não ficar 100% satisfeita com o programa nós devolvemos o valor pago. Para fazer o cancelamento, basta solicitar dentro de até 7 dias após a compra.</p>
+            </div>
+            <div onclick="displayAcesso()" id="arrow">
+                <i id="anima" class="fas fa-angle-down"></i>
+                <p>Quando começa e termina meu acesso ao programa?</p>
+            </div>
+            <div style="display: none" id="acesso">
+                <p>O acesso ao programa acontece imediatamente após a inscrição (ou mediante a confirmação do pagamento). Ao acessar a área de membros você encontrará um vídeo explicando o passo a passo para iniciar. O método tem duração de 30 dias, e acesso ao programa por um ano.</p>
+            </div>
+            <div onclick="displayLocal()" id="arrow">
+                <i id="ani" class="fas fa-angle-down"></i>
+                <p>Não treino em academia, posso fazer o programa?</p>
+            </div>
+            <div style="display: none" id="local">
+                <p>Sim! O método foi desenvolvido para realizar em casa sem a necessidade de utilizar nenhum material ou em academia.</p>
+            </div>
+        </div>
 
     <div id="apresentacao">
         <img src="img/fundo preto/hosakaPerfil.png" alt="foto de um homem" class="hosakaPerfil">

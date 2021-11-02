@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.0, viewport-fit=cover" />
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="shortcut icon" href="./projects/projeto01-frontend/icons/icons8-source-code-64.png" />
+    <link rel="stylehover" href="./style/hover.css">
+    <link rel="shortcut icon" href="./img/favicon/pessego.png" />
+    
+
     <title>Bumbum de DIVA - Me</title>
 </head>
 <body>
@@ -16,7 +19,7 @@
     <div class="first"> <!-- fundo branco -->
         <div id="assistaVideo">
             <p>ASSISTA O VÍDEO ABAIXO E DESCUBRA O SEGREDO QUE CENTENAS </p>
-            <p style="color: red;">DE MULHERES VEM ESCONDENDO, QUE AS DEIXAM </p>
+            <p style="color: red; font-size: 35px"; >DE MULHERES VEM ESCONDENDO, QUE AS DEIXAM </p>
             <p>COM UM BUMBUM MUITO MAIS BONITO, EMPINADO E DURINHO!</p>
         </div>
         
@@ -138,28 +141,28 @@
 
     <div id="faq"> <!--  fundo cinza -->
         <h2>PERGUNTAS FREQUENTES</h2>
-            <div onclick="displayTempo()" id="arrow">
+            <div onclick="displayTempo()" class="arrow">
                 <i id="animation" class="fas fa-angle-down"></i>
                 <p>Por quanto tempo vou ter acesso ao programa?</p>
             </div>
-            <div style="display: none" id="tempo">
+            <div style="display: none" class="tempo">
                 <p>Ao se inscrever você terá acesso por 1 ano a nossa plataforma e aplicativo com bônus exclusivos do treinamento. Ou seja, seu acesso é de 1 ano e você poderá acessar o conteúdo através do seu computador, tablet ou celular.</p>
             </div>
-            <div onclick="displayGarantia()" id="arrow">
+            <div onclick="displayGarantia()" class="arrow">
                 <i id="animati" class="fas fa-angle-down"></i>
                 <p>Como funciona a garantia de 7 dias?</p>
             </div>
-            <div style="display: none" id="garantia">
+            <div style="display: none" class="garantia">
                 <p>Se por algum motivo você não ficar 100% satisfeita com o programa nós devolvemos o valor pago. Para fazer o cancelamento, basta solicitar dentro de até 7 dias após a compra.</p>
             </div>
-            <div onclick="displayAcesso()" id="arrow">
+            <div onclick="displayAcesso()" class="arrow">
                 <i id="anima" class="fas fa-angle-down"></i>
                 <p>Quando começa e termina meu acesso ao programa?</p>
             </div>
-            <div style="display: none" id="acesso">
+            <div style="display: none" class="acesso">
                 <p>O acesso ao programa acontece imediatamente após a inscrição (ou mediante a confirmação do pagamento). Ao acessar a área de membros você encontrará um vídeo explicando o passo a passo para iniciar. O método tem duração de 30 dias, e acesso ao programa por um ano.</p>
             </div>
-            <div onclick="displayLocal()" id="arrow">
+            <div onclick="displayLocal()" class="arrow">
                 <i id="ani" class="fas fa-angle-down"></i>
                 <p>Não treino em academia, posso fazer o programa?</p>
             </div>

@@ -112,10 +112,25 @@ button{
 #faq{
     background-color: #ededed;
 }
+
 #arrow{
-    font-size: 35px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px;
+    solid #d4d4d4;
     cursor: pointer;
-    animation: blink 1s steps(5,start) infinite;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+}
+
+#arrow p{
+    font-family: "HANDOTRIAL", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: oblique;
 }
 
 @keyframes{
@@ -133,11 +148,27 @@ button{
     transition: 300ms;
 }
 
-#animation{
+.animation{
     transition:300ms;
 }
+
+#tempo, #garantia, #acesso, #local p{
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #656565;
+    font-family: "HANDOTRIAL", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: oblique;
+}
+
 /* apresentação */
-#apresentacao {
+#apresentacao{
     padding: 3%;
     background-color:#54595f ;
     color: white;

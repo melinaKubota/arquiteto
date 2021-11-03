@@ -101,13 +101,27 @@ button{
     background-color: black;
     padding: 3%;
 }
-.acesso{
+.acesso {
     background-color: #e0cf00;
     color: black;
-    width: 40;
-    padding: 20, 40;
-    cursor: pointer;
-    text-shadow: rgba(0, 0, 0, 0, 0.3);
+    border: #e0cf00;
+    border-radius: 10px, ;
+    
+
+   /*  border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+   
+  
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1;
+    padding: 20,40;
+    text-align: center;
+    text-transform: uppercase; */
 }
 
 /* faq */
@@ -172,45 +186,32 @@ button{
 /* apresentação */
 #apresentacao{
     padding: 3%;
-    background-color:#54595f ;
-    color: white;
+    background-color:white ;
+    color: black;
+   
+}
+#apresentacao p{
+    font-weight: bolder;
+    text-align: left;
 }
 .hosakaPerfil{
     width: 25%;
 }
 #termos{
-    color: #999999;
+    color: black;
+    background-color:#ededed;
 }
 
 
 @media screen and (max-width:480px){
-    #banner{
+    #banner, img{
       width: 100%; 
     }
-    img{
-        width:100%;
-    }
     .video{
-        width:; 
+        padding: 5%;
     }
-	.caixa, .principal, .conteudoBeneficios, .mapaConteudo, .video{
-		width: auto;
-	}
-	h1{
-		text-align: center;
-
-	}
-	nav{
-		position: static;
-	}
-	.listaBeneficios, .imgBeneficios{
-		width: 100%;
-	}
-	form, table{/* contato*/
-		text-align: center;
-		width: auto;
-	}
-	.tabelaHorarios{
-		width: auto;
-	}
+    p{
+        font-size: ;
+    }
+	
 }

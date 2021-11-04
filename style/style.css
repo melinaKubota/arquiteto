@@ -13,9 +13,24 @@ header{
     width: 100%;
 }
 
-.video{
-    background-image: url(https://www.youtube.com/embed/h6hMBkplzEs);
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .video iframe, .video object, .video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+
 
 button{
     background-color: rgb(255, 0, 0);
@@ -252,3 +267,6 @@ video{
     left: 32px;
     bottom: 1000px;
 }
+
+
+   

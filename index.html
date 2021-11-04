@@ -144,30 +144,26 @@
 
     <div id="faq"> <!--  fundo cinza -->
         <h2>PERGUNTAS FREQUENTES</h2>
-            <div onclick="displayTempo()" class="arrow">
-                <i id="animation" class="fas fa-angle-down"></i>
-                <p>Por quanto tempo vou ter acesso ao programa?</p>
+            <div onclick="displayTempo()" class="arrow">    
+                <p><i id="animation" class="fas fa-angle-down"></i> Por quanto tempo vou ter acesso ao programa?</p>
             </div>
-            <div style="display: none" class="tempo">
+            <div style="display: none" id="tempo">
                 <p>Ao se inscrever você terá acesso por 1 ano a nossa plataforma e aplicativo com bônus exclusivos do treinamento. Ou seja, seu acesso é de 1 ano e você poderá acessar o conteúdo através do seu computador, tablet ou celular.</p>
             </div>
-            <div onclick="displayGarantia()" class="arrow">
-                <i id="animati" class="fas fa-angle-down"></i>
-                <p>Como funciona a garantia de 7 dias?</p>
+            <div onclick="displayGarantia()" class="arrow">               
+                <p><i id="animati" class="fas fa-angle-down"></i> Como funciona a garantia de 7 dias?</p>
             </div>
-            <div style="display: none" class="garantia">
+            <div style="display: none" id="garantia">
                 <p>Se por algum motivo você não ficar 100% satisfeita com o programa nós devolvemos o valor pago. Para fazer o cancelamento, basta solicitar dentro de até 7 dias após a compra.</p>
             </div>
             <div onclick="displayAcesso()" class="arrow">
-                <i id="anima" class="fas fa-angle-down"></i>
-                <p>Quando começa e termina meu acesso ao programa?</p>
+                <p><i id="anima" class="fas fa-angle-down"></i> Quando começa e termina meu acesso ao programa?</p>
             </div>
-            <div style="display: none" class="acesso">
+            <div style="display: none" id="acesso">
                 <p>O acesso ao programa acontece imediatamente após a inscrição (ou mediante a confirmação do pagamento). Ao acessar a área de membros você encontrará um vídeo explicando o passo a passo para iniciar. O método tem duração de 30 dias, e acesso ao programa por um ano.</p>
             </div>
-            <div onclick="displayLocal()" class="arrow">
-                <i id="ani" class="fas fa-angle-down"></i>
-                <p>Não treino em academia, posso fazer o programa?</p>
+            <div onclick="displayLocal()" class="arrow">             
+                <p><i id="ani" class="fas fa-angle-down"></i> Não treino em academia, posso fazer o programa?</p>
             </div>
             <div style="display: none" id="local">
                 <p>Sim! O método foi desenvolvido para realizar em casa sem a necessidade de utilizar nenhum material ou em academia.</p>
@@ -175,13 +171,21 @@
         </div>
 
     <section id="apresentacao">
-        <img src="img/fundo preto/hosakaPerfil.png" alt="foto de um homem" class="hosakaPerfil">
-        <p>
-            Vinicius Hosaka atua como personal trainer desde 2015. Com uma metodologia totalmente focada em resultados estéticos exclusivamente para mulheres que querem modelar o corpo, eliminar a flacidez, aumentar a massa magra e perder peso recuperando as curvas femininas.
-        </p>
-        <p>
-            Graduado em educação física, Vinicius tem uma vasta experiência em treinamento feminino e já ajudou centenas de mulheres em vários Países e agora vai ajudar você a conquistar o seu objetivo.
-        </p>
+        <div class="perfil">
+            <div class="hosaka">
+                <img src="img/fundo preto/hosakaPerfil.png" alt="foto de um homem" id="hosakaPerfil" class="hosakaPerfil">
+            </div>
+            <div class="descricaoProfissional">
+                <img src="./img/hosaka.png" alt="">
+                <p>
+                    Vinicius Hosaka atua como personal trainer desde 2015. Com uma metodologia totalmente focada em resultados estéticos exclusivamente para mulheres que querem modelar o corpo, eliminar a flacidez, aumentar a massa magra e perder peso recuperando as curvas femininas.
+                </p>
+                <p>
+                    Graduado em educação física, Vinicius tem uma vasta experiência em treinamento feminino e já ajudou centenas de mulheres em vários Países e agora vai ajudar você a conquistar o seu objetivo.
+                </p>
+            </div>
+        </div>
+       
         <div id="termos">
             <h2>
                 TERMOS E CONDIÇÕES

@@ -165,10 +165,7 @@ button:focus{
     align-items: center;   
 
 }
-.funciona{
 
-    
-}
 .imgTitulo{
     width: 80%;
     margin-top: 30px;
@@ -218,11 +215,11 @@ button:focus{
     font-style: oblique;
 }
 
-@keyframes{
+/* @keyframes{
     to{
         visibility: hidden;
     }
-} 
+} */ 
 
 .active{
     display: block !important;

@@ -16,6 +16,7 @@ function displayAcesso(){
     arrow.classList.toggle('rotate');
     var display = document.getElementById('acesso');
     display.classList.toggle('active');
+    console.log (display);
 }
 
 function displayLocal(){

@@ -13,7 +13,27 @@ header{
     width: 100%;
 }
 
+#assistaVideo{
+    padding: 1%;;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0, 0.3);
+}
+
+#assistaVideo p{  
+   margin: 5px;     
+   font-size: 1em; /* medida do browser */
+}
+#assistaVideo #pVermelho{
+    font-size: 1.5em; /* usar em em vonte */
+    color: red;
+}
+
 .video {
+    margin-left: 10px;
+    margin-right: 10px;
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
@@ -22,6 +42,7 @@ header{
     height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
+   
    }
    .video iframe, .video object, .video embed {
     position: absolute;
@@ -45,37 +66,28 @@ button{
     font-style: italic;
     font-weight: 700;
     line-height: 1;
-    padding: 20,40;
+    padding: 0 20px;
     text-align: center;
     text-transform: uppercase;
+    box-shadow: 4px 4px 1px 0 #b40006;
+    border: none;
+
 }
+/* quando clica com o mouse */
+button:focus{
+    box-shadow: none;
+}
+
+.btnOferta{
+    margin:20px;
+
+}
+
 
 #banner{
     width: 100%;
 }
 
-/* video - BRANCO */
-#assistaVideo{
-    padding: 1%;;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: px;
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0, 0.3);
-}
-#assistaVideo p{  
-   margin: 5px;
-   /* tamanho da fonte */
-   font-weight: 900;
-   font-size: x-large;
- 
-}
-
-/* .video{
-    align-items: center;
-    width: 100%;
-} */
 
 #imgResultado{
     padding: 8%;
@@ -88,14 +100,21 @@ button{
 .prova{
     width: 25%;
 }
-/* CINZA  */
+/*SECOND PRETO  */
+#imgDiva{
+    display: inline;
+    width: 50%;
+    
+}
 #second{
-    background-color: rgb(51, 51, 51);
+    background-color: #000000;
     color: white;
     text-align: center;
-    padding: 10px; 
-    width: 2%;
-    
+    display: inline-block;
+    align-items: center;
+}
+/*.textDiva{
+    padding: 0,70%;
 }
 .paragrafoUm{
     margin: 5px;
@@ -106,36 +125,58 @@ button{
 }
 .barra{
     color: red;
-}
+} */
 
 /* como Funciona */
 #comoFunciona{  
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;   
+
 }
 .funciona{
-   
-    width: 100%; 
-   
+
+    
+}
+.imgTitulo{
+    width: 80%;
+    margin-top: 30px;
+}
+.oferta{
+    width: 70%;
+
 }
 /* sete dias - preto */
 #seteDias{
-    background-color: black;
-    padding: 3%;
+    background-color: black; 
 }
-.acesso {
+
+.seteDias{
+    max-width: 80vw;
+    padding-top: 30px;
+}
+#acessoImediato{
+    margin: 0;
+}
+.acessoImediato {
     background-color: #e0cf00;
     color: black;
     border: #e0cf00;
     border-radius: 10px, ;
     padding: 18px;
+    font-size: 0.8em;
+    margin: 18px 0;
 
 }
-
 /* faq */
 #faq{
     background-color: #ededed;
+    padding-bottom: 30px;
+    
+}
+#h2faq{
+    margin: 0%;
+    font-size: 40px;
 }
 
 .arrow{
@@ -177,7 +218,7 @@ button{
     transition:300ms;
 }
 
-#tempo, #garantia, #acesso, #local p{
+#tempo, #garantia, #acesso, #local p {
     margin-top: 0;
     margin-bottom: 0.9rem;
     display: block;
@@ -191,24 +232,81 @@ button{
     font-weight: 400;
     font-style: oblique;
 }
+#local p {
+    margin: 20px;
+}
+.escondido{
+    margin: 20px;
+}
 
 /* apresentação */
 #apresentacao{
-    padding: 3%;
+    padding: 0%;
     background-color:white ;
-    color: black;
-   
+    color: black;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 #apresentacao p{
     font-weight: bolder;
-    text-align: left;
+    text-align: left; 
+    
 }
-.hosakaPerfil{
-    /* width: 25%; */
+
+.perfil{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    max-width: 95vw;
+    
+}
+.hosaka{
+    border: 2px solid red;
+    position: relative;  
+    width: 450px;
+    max-width: 80vw;
+    height: 450px;
+    max-height: 80vw;
+}
+#hosakaPerfil{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 450px;
+    max-width: 80vw;
+    height: 450px;
+    max-height: 80vw;
+}
+.descricaoProfissional{
+    flex-grow: 1;
+    max-width: 80vw;
+    width: 600px;
+    margin-left: 20px;
+    height: 100%;
+    
+}
+.descricaoProfissional * { /* todos os filhos */
+    margin-top: 32px;
 }
 #termos{
     color: black;
     background-color:#ededed;
+    padding: 20px;
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#termos p{   
+    max-width: 85vw;
+    width: 1074px;
+    font-weight: 400;
+
 }
 
 
@@ -222,13 +320,11 @@ button{
         margin: 2px;
        
     }
-    .video{
-        padding: 5%;
-    }
-    p{
-        font-size: ;
-    }
-	
+
+   #imgDiva{
+    width: 100%;
+   }
+  
 }
 video{
     max-width: 100vw;
@@ -236,37 +332,10 @@ video{
 .funciona img{
     width: 95%;
 }
-.hosakaPerfil{
-    width: 450px;
-    max-width: 80vw;
-}
-.perfil{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    
-}
-.descricaoProfissional{
-    flex-grow: 1;
-    max-width: 600px;
-    margin-left: 20px;
-    height: 100%;
-    
-}
-.descricaoProfissional * { /* todos os filhos */
-    margin-top: 32px;
-}
-.hosaka{
-    border: 2px solid red;
-    position: relative;
-    
-}
-#hosakaPerfil{
-    display: relative;
-    left: 32px;
-    bottom: 1000px;
-}
+
+/* APRESENTAÇÃO */
+
+
 
 
    

@@ -71,7 +71,7 @@ button{
     text-transform: uppercase;
     box-shadow: 4px 4px 1px 0 #b40006;
     border: none;
-
+    animation: animacaoBotao 1s 1s ease-in-out ;
 }
 /* quando clica com o mouse */
 button:focus{
@@ -80,14 +80,45 @@ button:focus{
 
 .btnOferta{
     margin:20px;
+    animation: animacaoBotao 1s 1s ease-in-out ;
+}
+/* buton */
+#acessoImediato{
+    margin: 0;
+}
+.acessoImediato {
+    background-color: #e0cf00;
+    color: black;
+    border: #e0cf00;
+    border-radius: 10px, ;
+    padding: 18px;
+    font-size: 0.8em;
+    margin: 18px 0;
+    box-shadow: 4px 4px 1px 0 #b3a709;
 
 }
-
+@keyframes animacaoBotao{
+    10%{
+        transform: rotate(-30deg);
+    }
+    20%{
+        transform: rotate(30deg);
+    }
+    35%{
+        transform: rotate(-30deg);
+    }
+    55%{
+        transform: rotate(30deg);
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+    
+}
 
 #banner{
     width: 100%;
 }
-
 
 #imgResultado{
     padding: 8%;
@@ -155,19 +186,7 @@ button:focus{
     max-width: 80vw;
     padding-top: 30px;
 }
-#acessoImediato{
-    margin: 0;
-}
-.acessoImediato {
-    background-color: #e0cf00;
-    color: black;
-    border: #e0cf00;
-    border-radius: 10px, ;
-    padding: 18px;
-    font-size: 0.8em;
-    margin: 18px 0;
 
-}
 /* faq */
 #faq{
     background-color: #ededed;
@@ -199,11 +218,11 @@ button:focus{
     font-style: oblique;
 }
 
-/* @keyframes{
+@keyframes{
     to{
         visibility: hidden;
     }
-} */
+} 
 
 .active{
     display: block !important;
